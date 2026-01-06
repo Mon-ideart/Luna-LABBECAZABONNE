@@ -1,250 +1,320 @@
 /* ---------- RESET ---------- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Allura", cursive;
 }
 
 body {
-    background-color: #fff9fb;
-    color: #333;
-    line-height: 1.6;
+  background-color: #fff9fb;
+  color: #333;
+  line-height: 1.6;
 }
 
 /* ---------- HEADER ---------- */
 header {
-    background-color: #f8dce4;
-    color: #4a4a4a;
-    text-align: center;
-    padding: 2rem 1rem;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  background-color: #f8dce4;
+  color: #4a4a4a;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 header h1 {
-    font-size: 2.5rem;
-    color: #c15b84;
+  font-size: 2.5rem;
+  color: #c15b84;
 }
 
 /* ---------- NAVIGATION ---------- */
 nav {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 nav a {
-    text-decoration: none;
-    color: #4a4a4a;
-    margin: 0 1rem;
-    font-weight: 500;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #4a4a4a;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #c15b84;
+  color: #c15b84;
 }
 
 /* ---------- SECTIONS ---------- */
 section {
-    padding: 3rem 1.5rem;
-    max-width: 900px;
-    margin: 0 auto;
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 h2 {
-    color: #c15b84;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #f4b8c5;
-    display: inline-block;
-    padding-bottom: 0.3rem;
+  color: #c15b84;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f4b8c5;
+  display: inline-block;
+  padding-bottom: 0.3rem;
 }
 
 p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about, .parcours, .objectif {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    margin-bottom: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
 }
 
 /* ---------- FOOTER ---------- */
 footer {
-    text-align: center;
-    background-color: #f8dce4;
-    padding: 1.5rem;
-    color: #4a4a4a;
-    font-size: 0.9rem;
+  text-align: center;
+  background-color: #f8dce4;
+  padding: 1.5rem;
+  color: #4a4a4a;
+  font-size: 0.9rem;
 }
 
-/* ---------- BACK TO TOP BUTTON ---------- */
+/* ---------- BOUTON RETOUR HAUT ---------- */
 #backToTop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #c15b84;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #c15b84;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 #backToTop:hover {
-    background-color: #a84e72;
+  background-color: #a84e72;
 }
-
-/* ---------- QUIZ SECTION ---------- */
+body {
+    font-family: 'Allura', cursive 
+}
 .quiz-section {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    margin-bottom: 2rem;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  max-width: 650px;
+  margin: 40px auto;
 }
 
 .quiz-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Allura', cursive
 }
 
 .question {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 #submitQuiz {
-    background: #c15b84;
-    color: #fff;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    display: block;
-    margin: 20px auto;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
 }
 
 #submitQuiz:hover {
-    background-color: #a84e72;
+  opacity: 0.85;
 }
 
 #result {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #c15b84;
-    margin-top: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
 }
 
-/* ---------- SKILLS ---------- */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.timeline-section {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  margin: 40px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #6c63ff;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.event {
+  padding: 20px;
+  position: relative;
+  width: 50%;
+}
+
+.event.left {
+  left: 0;
+}
+
+.event.right {
+  left: 50%;
+}
+
+.content {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.content:hover {
+  transform: scale(1.05);
+  background: #e0e0ff;
+}
+
+.highlight .content {
+  background: #6c63ff;
+  color: white;
+}
+
+.gifts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gift {
+  background: #ffcc70;
+  padding: 15px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gift:hover {
+  transform: rotate(-3deg) scale(1.1);
+}
+
+#gift-text {
+  margin-top: 20px;
+  font-size: 1.1em;
+  min-height: 40px;
+}
+
+.profile-map {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.bubble-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px 0;
+
+  .flip-container {
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.flip-card {
+  width: 320px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.skills {
+  max-width: 600px;
+  margin: 80px auto;
+  font-family: inherit;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .skill {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .skill span {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: #4a4a4a;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .bar {
-    background: #e5e5e5;
-    border-radius: 20px;
-    overflow: hidden;
-    height: 14px;
+  background: #e5e5e5;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 14px;
 }
 
 .progress {
-    height: 100%;
-    width: 0;
-    background: #c15b84;
-    border-radius: 20px;
-    transition: width 1.5s ease;
+  height: 100%;
+  width: 0;
+  background: #6c63ff;
+  border-radius: 20px;
+  transition: width 1.5s ease;
+}  
+  
+  .travel {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 900px;
+  margin: 100px auto;
 }
 
-/* ---------- TRAVEL SECTION ---------- */
-.travel {
-    max-width: 900px;
-    margin: 0 auto 2rem;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+.travel img {
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .travel-text h2 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .travel-text p {
-    margin-bottom: 12px;
-    line-height: 1.6;
+  margin-bottom: 12px;
+  line-height: 1.6;
 }
 
-/* ---------- CONCLUSION ---------- */
 .conclusion {
-    font-weight: bold;
-    font-size: 18px;
-    color: #2c3e50;
-    text-align: center;
-    margin: 40px auto;
-    padding: 0 1.5rem;
-}
-
-/* ---------- FORM STYLING ---------- */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-form label {
-    font-weight: 600;
-    color: #4a4a4a;
-}
-
-form input,
-form textarea {
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-family: inherit;
-}
-
-form button {
-    background-color: #c15b84;
-    color: white;
-    border: none;
-    padding: 0.75rem;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-form button:hover {
-    background-color: #a84e72;
-}
-
-.hidden {
-    display: none;
-}
-
-/* ---------- RESPONSIVE ---------- */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-    
-    nav a {
-        margin: 0 0.5rem;
-        font-size: 0.9rem;
-    }
+  font-weight: bold;
+  font-size: 18px;
+  color: #2c3e50;
+  margin-top: 40px;
 }

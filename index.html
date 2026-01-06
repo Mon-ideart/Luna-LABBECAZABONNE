@@ -1,122 +1,224 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Luna Labbé Cazabonne</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Luna Labbé Cazabonne</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Luna Labbé Cazabonne</h1>
-        <nav>
-            <a href="#about">À propos</a>
-            <a href="#parcours">Parcours</a>
-            <a href="#objectif">Objectif</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
-    <section id="about" class="about">
-        <h2>À propos de moi</h2>
-        <p>Je m'appelle <strong>Luna Labbé Cazabonne</strong>, j'ai 19 ans et je suis actuellement étudiante en <strong>Licence de Sciences de l'Éducation – 2e année</strong>. Passionnée par l'apprentissage et le développement humain, je suis curieuse et investie dans tout ce que j'entreprends.</p>
-        <p>En dehors de mes études, je suis une grande amatrice de natation. Nager est pour moi une manière de me ressourcer, de me concentrer et de trouver un équilibre entre mon esprit et mon corps. C'est un sport qui me permet de me dépasser tout en me reconnectant à moi-même, et j'apprécie particulièrement cette sensation de liberté que procure l'eau.</p>
-        <p>J'apprécie particulièrement la lecture d'histoires criminelles, qu'elles soient basées sur des faits réels ou imaginaires. Cela m'aide à développer mon esprit d'analyse et ma capacité à comprendre des situations complexes. Cette passion m'apporte également un regard attentif aux détails, ce qui est une qualité que j'applique dans mon travail quotidien.</p>
-    </section>
-    
-    <section id="parcours" class="parcours">
-        <h2>Mon parcours</h2>
-        <p>Mon parcours universitaire en Sciences de l'Éducation m'a permis de découvrir la richesse des relations humaines, de mieux comprendre les processus d'apprentissage et de renforcer ma conviction d'évoluer dans le domaine de l'enseignement.</p>
-        <p>Grâce à mes expériences personnelles et académiques, j'ai développé des compétences en communication, en pédagogie et en accompagnement, que je souhaite continuer à approfondir.</p>
-        <p>J'ai obtenu mon Bac général avec les spécialités HGGSP (Histoire-Géographie, Géopolitique et Sciences Politiques) et SES (Sciences Économiques et Sociales). La spécialité HGGSP m'a permis d'approfondir ma compréhension des enjeux géopolitiques et des dynamiques historiques, tandis que la spécialité SES m'a offert une perspective analytique sur les phénomènes économiques et sociaux, ainsi qu'une meilleure appréhension des comportements humains et des structures sociétales.</p>
-    </section>
 
-    <section id="objectif" class="objectif">
-        <h2>Mes compétences</h2>
-        <div class="skill">
-            <span>Goût pour l'Education</span>
-            <div class="bar">
-                <div class="progress" data-level="95"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <span>Bien-être des élèves</span>
-            <div class="bar">
-                <div class="progress" data-level="100"></div>
-            </div>
-        </div>
-    </section>
+  <header>
+    <h1>Luna Labbé Cazabonne</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#objectif">Objectif</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section class="quiz-section">
-        <h2>🎉 Quiz : Apprends à mieux me connaître !</h2>
-        <div id="quiz">
-            <div class="question">
-                <p>2️⃣ Si j'étais un animal, je serais…</p>
-                <label><input type="radio" name="q2" value="1"> Un chaton 🐱</label><br>
-                <label><input type="radio" name="q2" value="0"> Un lion</label><br>
-                <label><input type="radio" name="q2" value="0"> Un dauphin</label><br>
-            </div>
-            <div class="question">
-                <p>3️⃣ Si j'étais un aliment, je serais…</p>
-                <label><input type="radio" name="q3" value="1"> Du saucisson 🐷</label><br>
-                <label><input type="radio" name="q3" value="0"> Une salade verte</label><br>
-                <label><input type="radio" name="q3" value="0"> Une pomme</label><br>
-            </div>
-            <div class="question">
-                <p>4️⃣ Si j'étais une boisson, je serais…</p>
-                <label><input type="radio" name="q4" value="1"> Un Coca Cherry 🍒🥤</label><br>
-                <label><input type="radio" name="q4" value="0"> De l'eau</label><br>
-                <label><input type="radio" name="q4" value="0"> Un jus d'orange</label><br>
-            </div>
-            <div class="question">
-                <p>5️⃣ Si j'étais un sport, je serais…</p>
-                <label><input type="radio" name="q5" value="1"> La natation 🏊‍♀️</label><br>
-                <label><input type="radio" name="q5" value="0"> Le football</label><br>
-                <label><input type="radio" name="q5" value="0"> La danse</label><br>
-            </div>
-            <div class="question">
-                <p>6️⃣ Si j'étais un pays, je serais…</p>
-                <label><input type="radio" name="q6" value="1"> Le Japon 🇯🇵</label><br>
-                <label><input type="radio" name="q6" value="0"> Les États-Unis</label><br>
-                <label><input type="radio" name="q6" value="0"> L'Espagne</label><br>
-            </div>
-            <button id="submitQuiz">Voir mon résultat</button>
-            <p id="result"></p>
-        </div>
-    </section>
+  <section id="about" class="about">
+    <h2>À propos de moi</h2>
+    <p>Je m'appelle <strong>Luna Labbé Cazabonne</strong>, j’ai 19 ans et je suis actuellement étudiante en <strong>Licence de Sciences de l’Éducation – 2e année</strong>. Passionnée par l’apprentissage et le développement humain, je suis curieuse et investie dans tout ce que j’entreprends.En dehors de mes études, je suis une grande amatrice de natation. Nager est pour moi une manière de me ressourcer, de me concentrer et de trouver un équilibre entre mon esprit et mon corps. C'est un sport qui me permet de me dépasser tout en me reconnectant à moi-même, et j'apprécie particulièrement cette sensation de liberté que procure l'eau.           
+  J'apprécie particulièrement la lecture d'histoires criminelles, qu'elles soient basées sur des faits réels ou imaginaires. Cela m'aide à développer mon esprit d'analyse et ma capacité à comprendre des situations complexes. Cette passion m'apporte également un regard attentif aux détails, ce qui est une qualité que j'applique dans mon travail quotidien.                                      </p>
+  </section>
 
-    <section class="travel">
-        <div class="travel-text">
-            <h2>Ouverture sur le monde</h2>
-            <p>Voyager occupe une place importante dans ma vie et dans ma construction personnelle. J'aime partir à la découverte de nouveaux lieux, m'immerger dans des cultures différentes et observer les paysages qui façonnent notre monde. Ces expériences m'apportent une ouverture d'esprit essentielle et nourrissent ma curiosité au quotidien.</p>
-            <p>Au fil de mes voyages, j'ai eu l'opportunité de me rendre dans plusieurs pays tels que l'Irlande, l'Espagne, les États-Unis et la Tunisie. Chacun de ces séjours m'a permis de découvrir d'autres modes de vie, d'autres façons de penser et d'enrichir ma vision du monde.</p>
-            <p>Voyager, c'est aussi apprendre autrement : en observant, en écoutant et en s'adaptant à des environnements nouveaux. Ces expériences renforcent ma capacité d'adaptation, mon sens de l'observation et mon ouverture aux autres, des qualités que je souhaite mettre au service de mon futur métier.</p>
-            <p>Cette envie de découverte et de compréhension du monde guide pleinement mon projet professionnel et ma manière d'envisager l'éducation : transmettre, éveiller la curiosité et encourager l'ouverture d'esprit chez les élèves.</p>
-        </div>
-    </section>
+  <section id="parcours" class="parcours">
+    <h2>Mon parcours</h2>
+    <p>Mon parcours universitaire en Sciences de l’Éducation m’a permis de découvrir la richesse des relations humaines, de mieux comprendre les processus d’apprentissage et de renforcer ma conviction d’évoluer dans le domaine de l’enseignement.</p>
+    <p>Grâce à mes expériences personnelles et académiques, j’ai développé des compétences en communication, en pédagogie et en accompagnement, que je souhaite continuer à approfondir.J'ai obtenu mon Bac général avec les spécialités HGGSP (Histoire-Géographie, Géopolitique et Sciences Politiques) et SES (Sciences Économiques et Sociales). La spécialité HGGSP m'a permis d'approfondir ma compréhension des enjeux géopolitiques et des dynamiques historiques, tandis que la spécialité SES m'a offert une perspective analytique sur les phénomènes économiques et sociaux, ainsi qu'une meilleure appréhension des comportements humains et des structures sociétales.</p>
+  </section>
 
-    <section id="contact" class="objectif">
-        <h2>Contact</h2>
-        <form id="contactForm">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
-        <p id="formMessage" class="hidden"></p>
-    </section>
+  <section id="objectif" class="objectif">
+    <h2>Mon objectif</h2>
+    <p>Mon objectif professionnel est de <strong>devenir professeure des écoles</strong>. Ce choix s’inscrit dans une véritable vocation : celle de transmettre, d’accompagner et de contribuer au développement des enfants. J’aime le contact humain, l’échange et la possibilité d’avoir un impact positif sur les parcours de vie.</p>
+    <p>Être enseignante, pour moi, c’est avant tout <strong>travailler avec le cœur</strong> et participer à la construction de futurs citoyens épanouis et curieux.</p>
+  </section>
 
-    <p class="conclusion">Merci d'avoir parcouru mon portfolio ! J'espère que vous avez apprécié me découvrir.</p>
+  <section id="contact" class="contact">
+    <h2>Me contacter</h2>
+    <p>Tu veux échanger avec moi ou me contacter pour une opportunité ? Remplis le formulaire ci-dessous 💌</p>
 
-    <footer>
-        <p>© 2025 - Luna Labbé Cazabonne | Portfolio personnel</p>
-    </footer>
-    
-    <button id="backToTop">↑</button>
-    <script src="script.js"></script>
+    <form id="contactForm">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <p id="formMessage" class="hidden"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Luna Labbé Cazabonne | Portfolio personnel</p>
+  </footer>
+
+  <button id="backToTop">↑</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+<section class="quiz-section">
+  <h2>🎉 Quiz : Apprends à mieux me connaître !</h2>
+
+  <div id="quiz">
+
+    <div class="question">
+      <p>1️⃣ Si j’étais un objet, je serais…</p>
+      <label><input type="radio" name="q1" value="1"> Un carnet de souvenirs 📔</label><br>
+      <label><input type="radio" name="q1" value="0"> Une calculatrice</label><br>
+      <label><input type="radio" name="q1" value="0"> Une lampe torche</label><br>
+    </div>
+
+    <div class="question">
+      <p>2️⃣ Si j’étais un animal, je serais…</p>
+      <label><input type="radio" name="q2" value="1"> Un chaton 🐱</label><br>
+      <label><input type="radio" name="q2" value="0"> Un lion</label><br>
+      <label><input type="radio" name="q2" value="0"> Un dauphin</label><br>
+    </div>
+
+    <div class="question">
+      <p>3️⃣ Si j’étais un aliment, je serais…</p>
+      <label><input type="radio" name="q3" value="1"> Du saucisson 🐷</label><br>
+      <label><input type="radio" name="q3" value="0"> Une salade verte</label><br>
+      <label><input type="radio" name="q3" value="0"> Une pomme</label><br>
+    </div>
+
+    <div class="question">
+      <p>4️⃣ Si j’étais une boisson, je serais…</p>
+      <label><input type="radio" name="q4" value="1"> Un Coca Cherry 🍒🥤</label><br>
+      <label><input type="radio" name="q4" value="0"> De l’eau</label><br>
+      <label><input type="radio" name="q4" value="0"> Un jus d’orange</label><br>
+    </div>
+
+    <div class="question">
+      <p>5️⃣ Si j’étais un sport, je serais…</p>
+      <label><input type="radio" name="q5" value="1"> La natation 🏊‍♀️</label><br>
+      <label><input type="radio" name="q5" value="0"> Le football</label><br>
+      <label><input type="radio" name="q5" value="0"> La danse</label><br>
+    </div>
+
+    <div class="question">
+      <p>6️⃣ Si j’étais un pays, je serais…</p>
+      <label><input type="radio" name="q6" value="1"> Le Japon 🇯🇵</label><br>
+      <label><input type="radio" name="q6" value="0"> Les États-Unis</label><br>
+      <label><input type="radio" name="q6" value="0"> L’Espagne</label><br>
+    </div>
+
+    <button id="submitQuiz">Voir mon score 🎯</button>
+
+    <p id="result"></p>
+  </div>
+</section>
+
+<section class="timeline-section">
+  <h2>Mon parcours</h2>
+
+  <div class="timeline">
+    <div class="event left">
+      <div class="content">
+        <h3>Bac général</h3>
+        <p>Spécialités Sciences Economique et Sociale  – Histoire Geopolitique </p>
+      </div>
+    </div>
+
+    <div class="event right">
+      <div class="content">
+        <h3>Obtention du bac</h3>
+        <p>Bac obtenu </p>
+      </div>
+    </div>
+
+    <div class="event left">
+      <div class="content">
+        <h3>Licence Sciences de l’Éducation</h3>
+        <p>Ileps – L1 (LSE)</p>
+      </div>
+    </div>
+
+    <div class="event right">
+      <div class="content">
+        <h3>Actuellement</h3>
+        <p>L2 Sciences de l’Éducation</p>
+      </div>
+    </div>
+
+    <div class="event left highlight">
+      <div class="content">
+        <h3>Projet professionnel</h3>
+        <p>Devenir professeur des écoles</p>
+      </div>
+    </div>
+  </div>
+  
+  <section class="skills">
+  <h2>Mon projet en quelques valeurs</h2>
+
+  <div class="skill">
+    <span>Pédagogie active</span>
+    <div class="bar">
+      <div class="progress" data-level="90"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>Travail d’équipe</span>
+    <div class="bar">
+      <div class="progress" data-level="85"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>Goût pour l’Education</span>
+    <div class="bar">
+      <div class="progress" data-level="95"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>Bien-être des élèves</span>
+    <div class="bar">
+      <div class="progress" data-level="100"></div>
+    </div>
+  </div>
+</section>
+  
+  <section class="travel">
+  <img src="" alt="Voyage et découverte" /> 
+    
+
+    
+    
+    <img src="https://images.unsplash.com/photo-1601754192553-fcc307b7710b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5Mjc3Njd8&ixlib=rb-4.1.0&q=85" alt="Description de l'image" width="345">
+    
+    
+    
+  <div class="travel-text">
+    <h2>Ouverture sur le monde</h2>
+    <p>
+     Voyager occupe une place importante dans ma vie et dans ma construction personnelle. J’aime partir à la découverte de nouveaux lieux, m’immerger dans des cultures différentes et observer les paysages qui façonnent notre monde. Ces expériences m’apportent une ouverture d’esprit essentielle et nourrissent ma curiosité au quotidien.
+
+     Au fil de mes voyages, j’ai eu l’opportunité de me rendre dans plusieurs pays tels que l’Irlande, l’Espagne, les États-Unis et la Tunisie. Chacun de ces séjours m’a permis de découvrir d’autres modes de vie, d’autres façons de penser et d’enrichir ma vision du monde.
+    </p>
+    <p>
+     Voyager, c’est aussi apprendre autrement : en observant, en écoutant et en s’adaptant à des environnements nouveaux. Ces expériences renforcent ma capacité d’adaptation, mon sens de l’observation et mon ouverture aux autres, des qualités que je souhaite mettre au service de mon futur métier.
+
+      Cette envie de découverte et de compréhension du monde guide pleinement mon projet professionnel et ma manière d’envisager l’éducation : transmettre, éveiller la curiosité et encourager l’ouverture d’esprit chez les élèves.
+    </p>
+  </div>
+</section>
+
+ <!-- Phrase de fin -->
+  <p class="conclusion">Merci d’avoir parcouru mon portfolio ! J’espère que vous avez apprécié me découvrir.</p>
+
+</body>
+</html> 

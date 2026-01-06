@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Allura", cursive;
 }
 
 body {
   background-color: #fff9fb;
   color: #333;
   line-height: 1.6;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* ---------- HEADER ---------- */
@@ -99,9 +99,6 @@ footer {
 #backToTop:hover {
   background-color: #a84e72;
 }
-body {
-    font-family: 'Allura', cursive 
-}
 .quiz-section {
   background: #fff;
   padding: 30px;
@@ -114,7 +111,6 @@ body {
 .quiz-section h2 {
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Allura', cursive
 }
 
 .question {
@@ -144,9 +140,7 @@ body {
   font-size: 18px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-}
+
 
 .timeline-section {
   width: 80%;
@@ -256,7 +250,6 @@ body {
 .skills {
   max-width: 600px;
   margin: 80px auto;
-  font-family: inherit;
 }
 
 .skills h2 {

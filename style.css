@@ -171,21 +171,12 @@ footer {
 
 /* ---------- TRAVEL SECTION ---------- */
 .travel {
-    display: flex;
-    align-items: center;
-    gap: 40px;
     max-width: 900px;
     margin: 0 auto 2rem;
     background-color: #fff;
     border-radius: 10px;
     padding: 2rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.travel img {
-    width: 280px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .travel-text h2 {
@@ -248,15 +239,6 @@ form button:hover {
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 768px) {
-    .travel {
-        flex-direction: column;
-    }
-    
-    .travel img {
-        width: 100%;
-        max-width: 280px;
-    }
-    
     header h1 {
         font-size: 2rem;
     }

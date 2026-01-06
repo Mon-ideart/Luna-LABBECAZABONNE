@@ -16,7 +16,7 @@ btn.onclick = function() {
 // Quiz functionality
 document.getElementById("submitQuiz").addEventListener("click", function() {
     let score = 0;
-    for (let i = 2; i <= 6; i++) {
+    for (let i = 1; i <= 5; i++) {
         let answer = document.querySelector(`input[name="q${i}"]:checked`);
         if (answer) score += parseInt(answer.value);
     }
